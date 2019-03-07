@@ -4,7 +4,7 @@ pipeline {
     }
 
     environment {
-	REGISTRY="gcr.io/scale-devops"
+	REGISTRY="gcr.io/scale-devops-public"
 	BUILD_DIR = "${WORKSPACE}/src/github.com/LiflandGaming/xo"
     }
 
