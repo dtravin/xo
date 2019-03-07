@@ -1,4 +1,4 @@
-REGISTRY := gcr.io/scale-devops
+REGISTRY := gcr.io/scale-devops-public
 BINARY := xo
 TAG := $(shell git describe --abbrev=0 --tags)
 
